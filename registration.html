@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <style>
+            #d1{
+               border: 1px solid black;
+               background-image: url("register.jpg");
+               background-position: center;
+
+               
+                
+            }
+            #d2{
+                width:900px;
+                border: 1px solid black;
+                
+                margin-left: 350px;
+                margin-top: 20px;
+                padding-left: 40px;
+                margin-bottom: 20px;
+                border: 3px solid goldenrod;
+                background-image: linear-gradient(grey,goldenrod,pink);
+            }
+            input{
+                width:400px;
+                padding: 10px;
+                
+            }
+            select{
+                width: 200px;
+                padding: 10px;
+            }
+            .di{
+                border: 2px dashed black;
+                width: 400px;
+            }
+           input[type="checkbox"]{
+           width: 1%;
+           }
+           button{
+               margin-left: 400px;
+               margin-bottom: 10px;
+               padding: 15px;
+               width: 150px;
+               background-color: red;
+               border: 0;
+               border-radius: 10px;
+               cursor: pointer;
+           }
+        input[type="radio"]{
+            width:30px;
+            padding: 1px;
+                }
+           
+            
+            
+        </style>
+
+    </head>
+    <body>
+        <div id="d1">
+            <div id="d2">
+                <form>
+              
+                <h2 style="text-align: center;color:chocolate">Registration Form</h2>
+                 Email Address<span style="color:red;" >*</span> <br><br>
+                 <input  type="email" id="email" placeholder="Email Address" ><span id="a1"></span><br><br>
+                 Password<span style="color:red;">*</span><span id="id3"></span><br><br>
+                 <input type="password" placeholder="Password"><br><br>
+                 Confirm Password<span style="color:red;">*</span<span id="id5"></span><br><br>
+                 <input type="password" placeholder="Confirm Password" ><br><br>
+                 Gender<span style="color: red;">*</span><br><br>
+                 <input type="radio" name="gen">Male  <input type="radio" name="gen">Female<br></br>
+                 Title<span style="color:red;">*</span><br><br>
+                 <select>
+                     <option>Select</option>
+                     <option>Mr.</option>
+                     <option>Mrs.</option>
+                 </select><br><br>
+                 First Name<span style="color:red;">*</span><br><br>
+                 <input type="text" placeholder="First Name"><br><br>
+                <label class="l1">Middle Name<span style="color:rgb(124, 123, 123);">*</span></label><br><br>
+                 <input class="l2" type="text" placeholder="Middle Name"><br><br>
+                 Last Name<span style="color:red;">*</span><br><br>
+                 <input type="text" placeholder="Last Name"><br><br>
+                 Contact Number<span style="color: red;">*</span><br><br>
+                 <select>
+                     <option>Select</option>
+                     <option>+91(India)</option>
+                     <option>+93(Afghanisthan)</option>
+                     <option>+604(US)</option>
+                 </select>
+                 <input type="number" placeholder="Contact Number"><br><br>
+                 Date Of Birth<span style="color:red">*</span><br><br>
+                
+                 <input type="date"><br><br>
+                 
+                 <label id="f1">Upload Resume</label><span style="color: red;">*</span><br><br>
+                 <input  class="di" type="file"><br><br>
+                 <input type="checkbox">I agreed to terms and conditons<br><br>
+                 <button onclick="check()">Register</button>
+                 </form>
+                 
+
+                
+                 
+                 
+            </div>
+        </div>
+        
+    </body>
+</html>
